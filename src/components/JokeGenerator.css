@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 32px;
+}
+
+.head {
+  background: black;
+  width: 100%;
+  padding: 32px;
+  color: white;
+}
+
+.title {
+  font-family: Rubik Maps;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.img-div {
+  padding: 0 24px;
+}
+
+.img-section {
+  width: 100%;
+  border-radius: 16px;
+  animation-name: blink_light;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-iteration-count: infinite;
+}
+
+.joke-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  padding: 0 24px;
+}
+
+.joke-info {
+  font-family: Outfit;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.joke-btn {
+  font-family: Outfit;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.joke-btn:hover {
+  color: white;
+  background: black;
+  box-shadow: 0px 0px 16px black;
+}
+
+@keyframes blink_light {
+  0%,
+  100% {
+    box-shadow: 0px 0px 64px red;
+  }
+  50%,
+  90% {
+    box-shadow: 0px 0px 64px blue;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .head {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .img-div {
+    padding: 0 24px;
+  }
+
+  .img-section {
+    width: 100%;
+  }
+
+  .joke-section {
+    padding: 0 24px;
+  }
+
+  .joke-info {
+    text-align: center;
+  }
+}
