@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.53986796.css",
-    "main.js": "/MyPortfolio/static/js/main.13ab59ba.js",
-    "static/media/jokeimg.jpeg": "/MyPortfolio/static/media/jokeimg.9cc626214343273b6d9e.jpeg",
-    "index.html": "/MyPortfolio/index.html",
-    "main.53986796.css.map": "/MyPortfolio/static/css/main.53986796.css.map",
-    "main.13ab59ba.js.map": "/MyPortfolio/static/js/main.13ab59ba.js.map"
+    "main.css": "/ReactJokeGenerator/static/css/main.53986796.css",
+    "main.js": "/ReactJokeGenerator/static/js/main.033a4c21.js",
+    "static/media/jokeimg.jpeg": "/ReactJokeGenerator/static/media/jokeimg.9cc626214343273b6d9e.jpeg",
+    "index.html": "/ReactJokeGenerator/index.html",
+    "main.53986796.css.map": "/ReactJokeGenerator/static/css/main.53986796.css.map",
+    "main.033a4c21.js.map": "/ReactJokeGenerator/static/js/main.033a4c21.js.map"
   },
   "entrypoints": [
     "static/css/main.53986796.css",
-    "static/js/main.13ab59ba.js"
+    "static/js/main.033a4c21.js"
   ]
 }
